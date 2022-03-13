@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <nav class="navigation-menu">
+    <nav class="footer-menu">
                 
     <?php $args = ['theme_location' => 'footer'];?>
             <?php wp_nav_menu($args); ?>
