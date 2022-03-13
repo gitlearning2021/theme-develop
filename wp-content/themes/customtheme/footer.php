@@ -1,7 +1,7 @@
 <footer class="site-footer">
     <nav class="navigation-menu">
                 
-    <?php $args = ['theme_location' => 'fotter'];?>
+    <?php $args = ['theme_location' => 'footer'];?>
             <?php wp_nav_menu($args); ?>
     </nav>
     <p><?php bloginfo( 'name' ) ?></p>
